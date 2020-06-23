@@ -7,26 +7,26 @@ import Option from 'components/Option';
 const Screen = () => {
   const optionsData = [
     {
-      value: 'Blood Glucose'
+      value: 'Blood Glucose',
     },
     {
-      value: 'Medication'
+      value: 'Medication',
     },
     {
-      value: 'Food Tracking'
+      value: 'Food Tracking',
     },
     {
-      value: 'Exercise'
+      value: 'Exercise',
     },
     {
-      value: 'Weight Management'
+      value: 'Weight Management',
     },
     {
-      value: 'Blood Pressure'
+      value: 'Blood Pressure',
     },
     {
-      value: 'A1C'
-    }
+      value: 'A1C',
+    },
   ];
   return (
     <div className="container">
