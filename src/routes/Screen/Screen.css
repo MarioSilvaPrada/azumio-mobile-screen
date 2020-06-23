@@ -1,6 +1,9 @@
 .container {
   padding: 1rem 2rem;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .header-title {
@@ -25,25 +28,37 @@
 }
 
 .footer {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-progress {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+}
+
+.footer-btn__goBack,
+.footer-btn__done {
+  text-transform: uppercase;
+  font-size: .8rem;
+  color: gray;
+}
+
+.btn-main {
+    color: #7f78d2;
+    font-weight: 600;
 }
 
 .dot {
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: lightgray;
-    margin: 5px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: lightgray;
+  margin: 5px;
 }
 
 .current {
-    width: 8px;
-    height: 8px;
-    background: #7f78d2;
+  width: 8px;
+  height: 8px;
+  background: #7f78d2;
 }
