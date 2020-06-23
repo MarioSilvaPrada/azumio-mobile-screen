@@ -1,0 +1,30 @@
+@keyframes selectAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+button {
+  border: 1px solid lightgrey;
+  background: none;
+  border-radius: 5px;
+  padding: 0 10px;
+  color: grey;
+  font-weight: 600;
+  min-height: 3.8rem;
+  transition: .4s;
+}
+
+.btn__isSelected {
+  background: #7f78d2;
+  color: white;
+  border: 1px solid #7f78d2;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+  animation: selectAnimation 0.4s linear;
+}
