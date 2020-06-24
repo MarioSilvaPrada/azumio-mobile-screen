@@ -57,7 +57,7 @@ const Screen = () => {
       <div className="container-web">
         <h1>
           Please change to mobile view
-          <span role="img" aria-label="smile">😄</span>
+          <span role="img" aria-label="smile"> 😄</span>
         </h1>
       </div>
     </div>
