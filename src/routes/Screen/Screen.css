@@ -1,23 +1,32 @@
 .container {
   padding: 1rem 2rem;
   height: 100%;
+}
+
+.container-web {
+  display: none;
+}
+
+.container-mobile {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 100%;
 }
 
 .header-title {
+  margin: 0 1.5rem;
   text-align: center;
   font-weight: 500;
   line-height: 2.1rem;
   font-size: 1.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .description {
   text-align: center;
   line-height: 1.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .options-wrapper {
@@ -45,8 +54,8 @@
 }
 
 .btn-main {
-    color: #7f78d2;
-    font-weight: 600;
+  color: #7f78d2;
+  font-weight: 600;
 }
 
 .dot {
@@ -61,4 +70,14 @@
   width: 8px;
   height: 8px;
   background: #7f78d2;
+}
+
+@media screen and (min-width: 440px) {
+  .container-mobile {
+    display: none;
+  }
+
+  .container-web {
+    display: block;
+  }
 }
